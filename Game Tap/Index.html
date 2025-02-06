@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Tap</title>
+    <link rel="stylesheet" href="Index.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Can You Guess the Color on Display?</h1>
+      <div class="color-display" data-testid="colorBox"></div>
+      <div class="color-options">
+        <button
+          class="color-option"
+          data-testid="colorOption"
+          style="background-color: #b1cbbb"
+        ></button>
+        <button
+          class="color-option"
+          data-testid="colorOption"
+          style="background-color: #50394c"
+        ></button>
+        <button
+          class="color-option"
+          data-testid="colorOption"
+          style="background-color: #b0aac0"
+        ></button>
+        <button
+          class="color-option"
+          data-testid="colorOption"
+          style="background-color: #4040a1"
+        ></button>
+        <button
+          class="color-option"
+          data-testid="colorOption"
+          style="background-color: #c94c4c"
+        ></button>
+        <button
+          class="color-option"
+          data-testid="colorOption"
+          style="background-color: #80ced6"
+        ></button>
+      </div>
+      <p class="game-instructions" data-testid="gameInstructions">
+        Guess the Color!
+      </p>
+      <p class="game-status" data-testid="gameStatus"></p>
+      <p class="score" data-testid="score">Score: 0</p>
+      <button class="new-game-button" data-testid="newGameButton">
+        New Game
+      </button>
+    </div>
+
+    <script src="Index.js"></script>
+  </body>
+</html>
